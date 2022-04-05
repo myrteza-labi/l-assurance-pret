@@ -1,0 +1,36 @@
+.Footer {
+    min-height: 400px; 
+    background-color: rgb(16, 13, 34); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    color: #aaa; 
+}
+
+
+.footerLinkSection {
+    margin-top: 30px; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+}
+
+.linkBlock ul{ 
+    list-style-type: circle; 
+    cursor: pointer; 
+}
+
+.linkBlock ul li{ 
+    line-height: 25px; 
+}
+.linkBlock ul li:hover{ 
+    color: #eee; 
+}
+
+.copyright{
+    margin-top: 20px; 
+    color: #fff; 
+    font-size: 10px; 
+}

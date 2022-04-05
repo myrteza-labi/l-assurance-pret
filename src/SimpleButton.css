@@ -1,0 +1,38 @@
+.simpleButton {
+    min-width: 150px; 
+    margin: auto; 
+    padding: 15px 20px; 
+    border-radius: 30px; 
+    border: none; 
+    color: #fff; 
+    font-size: 18px; 
+    cursor: pointer; 
+}
+
+.simpleButton.empty {
+    border: 2px solid #fff; 
+    background-color: transparent; 
+    margin-bottom: 20px; 
+    margin-right: 20px; 
+}
+
+.simpleButton.empty:hover {
+    background-color: rgba(255,255,255,0.1);
+    border-color: rgb(231, 186, 39); 
+
+}
+
+.simpleButton.fullWhite {
+    border: 2px solid #fff; 
+    background-color: #fff; 
+    color: #000; 
+}
+
+
+
+
+.simpleButton.fullWhite:hover {
+    /*background-color: rgba(255,255,255, 0.8); */
+    border-color: rgb(231, 186, 39); 
+
+}

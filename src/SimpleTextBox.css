@@ -1,0 +1,38 @@
+.SimpleTextBox {
+    color: #333; 
+    max-width: 600px; 
+    margin-right: 50px; 
+    box-shadow: 0px 0px 10px #999 ; 
+    padding: 60px; 
+    border-radius: 10px; 
+    background-color: #fff; 
+}
+.SimpleTextBox2  {
+    color: #fff; 
+    max-width: 70%; 
+    margin-top: 100px; 
+}
+
+.SimpleTextBox3  {
+    color: #333; 
+    max-width: 80%; 
+    padding: 60px; 
+    border-radius: 10px; 
+    background-color: #fff; 
+}
+.SimpleTextBox2 .SimpleTextParagraphe {
+    color: #bbb; 
+
+}
+
+
+.SimpleTextParaTitle {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+}
+
+.SimpleTextParagraphe{
+    color: #999; 
+    font-size: 15px; 
+    line-height: 20px; 
+}

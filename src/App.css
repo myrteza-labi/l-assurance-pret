@@ -1,0 +1,96 @@
+.firstSection {
+    background-image: url("./images/insurance-bg-1.jpg"); 
+    background-position: center; 
+    background-size: cover; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding-bottom: 150px; 
+}
+
+.seconSection{
+    background-color: #eee; 
+}
+
+.starBoxList {
+    padding: 50px; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.themeBoxCtn{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.MainImageTextBoxCtn {
+    color: #fff; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;    
+    align-items: center; 
+    margin-top: 100px; 
+}
+.MainImageTextBoxCtn.two {
+    padding: 100px 0; 
+    background-image: url("./images/insurance-bg-1.jpg"); 
+    background-position: center; 
+    background-size: cover; 
+}
+
+.separateur{
+    width: 400px; 
+    border: 2px solid #333; 
+    border-radius: 4px; 
+    margin: auto; 
+}
+
+
+.titleAndIconbox {
+    margin-bottom: 50px; 
+}
+
+.iconBoxCtn{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 0 80px; 
+}
+
+.titleAndIconboxTextCtn{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #fff; 
+    padding-top: 100px ; 
+    padding-bottom: 100px ; 
+    text-align: center; 
+}
+.titleAndIconboxTextCtn p{ 
+    margin-top: 15px; 
+}
+
+.titleAndIconboxTextCtn h3{ 
+    font-size: 22px; 
+}
+
+
+.courtierSection {
+    display: flex; 
+    flex-direction: row; 
+}
+
+@media screen and (max-width: 900px){
+    .MainImageTextBoxCtn {
+        flex-direction: column; 
+    }
+}
