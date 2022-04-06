@@ -2,11 +2,15 @@ import React from 'react'
 import header from '../images/pexels-thisisengineering-3862603.jpg'; 
 import HeaderImage from '../HeaderImage';
 import alptis from '../images/logos-assurances/alptis-square.jpg'; 
+import CompagniesAssurances from './CompagniesAssurances'; 
+import {Link} from "react-router-dom"
 
 function Alptis() {
   return (
       <div className="CompagniesAssurances">
         <HeaderImage src={header} />
+        <Link className="liAssurance" to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances/>}>Retour</Link>
+
         <div className="CompagniesAssurancesTextContainer">
           <img className="logoPageAssureur" src={alptis}/>
           <h1>Alptis assurance prêt : pour une assurance équitable</h1>

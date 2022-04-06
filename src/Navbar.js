@@ -9,10 +9,26 @@ import CompagniesAssurances from './compagnies-assurances/CompagniesAssurances.j
 import Tarif from './tarif/Tarif';
 import Devis from './devis/Devis';
 import Courtier from './courtier/Courtier';
+import Pret from './pret/Pret';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function Navbar(){
     return(
+
     <div className="Navbar">
     <Logo src={logo}/>
     
@@ -22,18 +38,39 @@ function Navbar(){
   </label>
 
     <ul className="menu">
-      <Link className="menuLi" to="/" element={<App/>}>Accueil</Link>
+      <li className="menuLi">
+        <Link  to="/" element={<App/>}>Accueil</Link>
+      </li>
 
+      <li className="menuLi">
       <Link className="menuLi" to="/comparatif/Comparatif" >Comparatif</Link>
+      </li>
 
-      
+
+      <li className="menuLi">
       <Link className="menuLi" to="/courtier/Courtier" element={<Courtier/>}>Courtier</Link>
+      </li>
 
+      <li className="menuLi">
       <Link className="menuLi" to="/devis/Devis" element={<Devis/>} onClick={() => window.reload()}>Devis</Link>
+      </li>
+
+      <li className="menuLi">
+      <Link className="menuLi" to="/pret/Pret" element={<Pret/>}>Pret</Link>
+      </li>
+
+      <li className="menuLi">
       <Link className="menuLi" to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances/>}>Société</Link>
+      </li>
+
+      <li className="menuLi">
       <Link className="menuLi" to="/tarif/Tarif" element={<Tarif/>}>Tarif</Link>
+      </li>
+
     </ul>
   </div>
+
+  
     )
 }
 

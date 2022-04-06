@@ -12,6 +12,7 @@ import Tarif from './tarif/Tarif';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Devis from './devis/Devis.js';
+import Pret from './pret/Pret';
 import PretConso from './pret/PretConso.js';
 import PretRachat from './pret/PretRachat.js';
 import Comparatif from './comparatif/Comparatif';
@@ -94,6 +95,8 @@ function App() {
         <Route path="/compagnies-assurances/SwissLife" element={<SwissLife/>}/>
         <Route path="/tarif/Tarif" element={<Tarif/>}/>
         <Route path="/devis/Devis" element={<Devis/>}/>
+        <Route path="/pret/Pret" element={<Pret/>}/>
+
         <Route path="/pret/PretConso" element={<PretConso/>}/>
         <Route path="/pret/PretRachat" element={<PretRachat/>}/>
         <Route path="/comparatif/Comparatif" element={<Comparatif/>}/>

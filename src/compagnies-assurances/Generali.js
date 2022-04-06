@@ -2,11 +2,15 @@ import React from 'react'
 import header from '../images/pexels-thisisengineering-3862603.jpg'; 
 import HeaderImage from '../HeaderImage';
 import generali from '../images/logos-assurances/generali-square.jpg'; 
+import CompagniesAssurances from './CompagniesAssurances'; 
+import {Link} from "react-router-dom"
 
 function Generali() {
   return (
       <div className="CompagniesAssurances">
         <HeaderImage src={header} />  
+        <Link className="liAssurance" to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances/>}>Retour</Link>
+
         <div className="CompagniesAssurancesTextContainer">
           <img className="logoPageAssureur" src={generali}/>
           <h1>Generali assurance prêt : des formules souples pour chaque besoin</h1>

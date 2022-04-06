@@ -43,6 +43,7 @@
     background-image: url("./images/insurance-bg-1.jpg"); 
     background-position: center; 
     background-size: cover; 
+    margin-top: 0; 
 }
 
 .separateur{

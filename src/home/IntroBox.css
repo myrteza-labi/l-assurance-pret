@@ -22,13 +22,13 @@
 
 .introBoxBtnCtn{
     display: flex; 
-    flex-direction: column; 
+    flex-direction: row; 
     margin-bottom: 100px; 
+    justify-content: center; 
 }
 
 .introBoxButton {
     min-width: 150px; 
-    margin: auto; 
     padding: 15px 20px; 
     border-radius: 30px; 
     border: none; 
@@ -41,6 +41,7 @@
     border: 2px solid #fff; 
     background-color: transparent; 
     margin-bottom: 20px; 
+    margin-right: 20px; 
 }
 
 .introBoxButton.empty:hover {
