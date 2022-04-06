@@ -14,7 +14,8 @@ import Footer from './Footer';
 import Devis from './devis/Devis.js';
 import PretConso from './pret/PretConso.js';
 import PretRachat from './pret/PretRachat.js';
-
+import Comparatif from './comparatif/Comparatif';
+import Courtier from './courtier/Courtier';
 
 /*import IntroBox from './IntroBox';
 import ThemeBox from './ThemeBox';
@@ -95,7 +96,11 @@ function App() {
         <Route path="/devis/Devis" element={<Devis/>}/>
         <Route path="/pret/PretConso" element={<PretConso/>}/>
         <Route path="/pret/PretRachat" element={<PretRachat/>}/>
+        <Route path="/comparatif/Comparatif" element={<Comparatif/>}/>
+        <Route path="/courtier/Courtier" element={<Courtier/>}/>
 
+
+        
         
 
       </Routes>

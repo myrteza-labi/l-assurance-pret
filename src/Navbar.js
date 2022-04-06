@@ -1,5 +1,6 @@
 import React from 'react'; 
 import {Link} from "react-router-dom"
+import { HashLink } from 'react-router-hash-link';
 import './Navbar.css'; 
 import Logo from './home/Logo';
 import logo from './images/logo.png'; 
@@ -7,7 +8,7 @@ import App from './App';
 import CompagniesAssurances from './compagnies-assurances/CompagniesAssurances.js'
 import Tarif from './tarif/Tarif';
 import Devis from './devis/Devis';
-
+import Courtier from './courtier/Courtier';
 
 
 function Navbar(){
@@ -23,11 +24,11 @@ function Navbar(){
     <ul className="menu">
       <Link className="menuLi" to="/" element={<App/>}>Accueil</Link>
 
-      <Link className="menuLi" to="/#comparatifAssurance" >Comparatif</Link>
+      <Link className="menuLi" to="/comparatif/Comparatif" >Comparatif</Link>
 
-      <li href="/home/Home#comparatifAssurance" className="menuLi">Comparatif</li>
+      
+      <Link className="menuLi" to="/courtier/Courtier" element={<Courtier/>}>Courtier</Link>
 
-      <li className="menuLi">Courtier</li>
       <Link className="menuLi" to="/devis/Devis" element={<Devis/>} onClick={() => window.reload()}>Devis</Link>
       <Link className="menuLi" to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances/>}>Société</Link>
       <Link className="menuLi" to="/tarif/Tarif" element={<Tarif/>}>Tarif</Link>
