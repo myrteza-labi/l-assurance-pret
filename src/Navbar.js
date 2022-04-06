@@ -1,10 +1,12 @@
 import React from 'react'; 
 import {Link} from "react-router-dom"
 import './Navbar.css'; 
-import Logo from './Logo';
+import Logo from './home/Logo';
 import logo from './images/logo.png'; 
 import App from './App';
-import AfiEurope from './AfiEurope.js'
+import CompagniesAssurances from './compagnies-assurances/CompagniesAssurances.js'
+import Tarif from './tarif/Tarif';
+import Devis from './devis/Devis';
 
 
 
@@ -19,15 +21,16 @@ function Navbar(){
   </label>
 
     <ul className="menu">
-      <Link to="/" element={<App/>}>Accueil</Link>
-      <Link to="/AfiEurope" element={<AfiEurope/>}>AfiEurope</Link>
+      <Link className="menuLi" to="/" element={<App/>}>Accueil</Link>
 
-      <li className="menuLi">Acceuil</li>
-      <li className="menuLi">Comparatif</li>
+      <Link className="menuLi" to="/#comparatifAssurance" >Comparatif</Link>
+
+      <li href="/home/Home#comparatifAssurance" className="menuLi">Comparatif</li>
+
       <li className="menuLi">Courtier</li>
-      <li className="menuLi">Devis</li>
-      <li className="menuLi">Société</li>
-      <li className="menuLi">Tarif</li>
+      <Link className="menuLi" to="/devis/Devis" element={<Devis/>} onClick={() => window.reload()}>Devis</Link>
+      <Link className="menuLi" to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances/>}>Société</Link>
+      <Link className="menuLi" to="/tarif/Tarif" element={<Tarif/>}>Tarif</Link>
     </ul>
   </div>
     )

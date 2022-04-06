@@ -4,7 +4,7 @@ import './SimpleTextBox.css';
 
 function SimpleTextBox(props){
     return(
-        <div className={props.className}>
+        <div id={props.id} className={props.className}>
             <h2 className="textBoxTitle">{props.title}</h2>
             <div className="underline"></div>
             <h4 className="SimpleTextParaTitle">{props.paraTitle1}</h4>

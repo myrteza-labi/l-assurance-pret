@@ -2,7 +2,6 @@
     width: 200px; 
     transition: transform .1s;
     height: auto; 
-    border: 1px solid #ddd; 
     border-radius: 4px; 
     display: flex; 
     flex-direction: column; 
@@ -11,7 +10,6 @@
     justify-content: center; 
     margin-right: 25px; 
     margin-bottom: 30px; 
-    box-shadow: 0px 0px 10px #ccc; 
     padding: 10px; 
 }
 

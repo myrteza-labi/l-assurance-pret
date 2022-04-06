@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './ThemeBox.css'; 
-import logoInsurance from './images/insurance.png'; 
-import logoHome from './images/home.png'; 
+import logoInsurance from '../images/insurance.png'; 
+import logoHome from '../images/home.png'; 
 
 
 

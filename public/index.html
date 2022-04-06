@@ -37,6 +37,48 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+
+
+
+
+      (function(d, s, id) {
+    var js, dpjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) return;
+     js = d.createElement(s);
+     js.id = id;
+     js.src = "//simulateur.ascourtage.fr/js/sdkif.js";
+    dpjs.parentNode.insertBefore(js, dpjs);
+  }
+   (document, "script", "asInit"));
+    var _AppCfg = { version : "0.1", appId:"votreass"};
+
+
+
+
+
+
+
+
+      function devis(param1d, param2s, param3id){
+    let js = param1d.getElementsByTagName(param2s)[0];
+    let dpjs = param1d.getElementsByTagName(param2s)[0];
+
+    if(param1d.getElementById(param3id)===true){
+      return
+    }
+    js = param1d.createElement(param2s);
+    js.iparam3id= param3id;
+    js.src = "//simulateur.ascourtage.fr/js/sdkif.js";
+    dpjs.parentNode.insertBefore(js, dpjs);
+  }
     -->
   </body>
+
+  <script type="text/javascript">   
+
+  (document, "script", "asInit");
+    var _AppCfg = { version : "0.1", appId:"votreass"};
+
+   </script> 
+  
 </html>

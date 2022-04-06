@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './StarBox.css'; 
-import starLogo from './images/star.png'
+import starLogo from '../images/star.png'
 
 function StarBox(){
     return(
