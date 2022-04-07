@@ -16,7 +16,7 @@ import App from './App';
 function Footer() {
     return (
         <footer className="Footer">
-            <Logo src={logowhite} />
+            <Logo className={"Logo Logofooter"}src={logowhite} />
             <div className="footerLinkSection">
                 <div className="linkBlock" >
                     <ul>

@@ -22,7 +22,7 @@ import SwissLife from './compagnies-assurances/SwissLife';
 function Navbar() {
   return (
     <div className="Navbar">
-      <Logo src={logo} />
+      <Logo className={"Logo"}src={logo} />
       <input id="menu-toggle" type="checkbox" />
       <label className='menu-button-container' htmlFor="menu-toggle">
         <div className='menu-button'></div>

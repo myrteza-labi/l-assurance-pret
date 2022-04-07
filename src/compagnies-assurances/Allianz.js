@@ -2,11 +2,13 @@ import React from 'react'
 import header from '../images/pexels-thisisengineering-3862603.jpg';
 import HeaderImage from '../HeaderImage';
 import allianz from '../images/logos-assurances/allianz-square.jpg';
+import allianzBanner from '../images/allianz-banner.jpg';
+
 
 function Allianz() {
   return (
     <div className="CompagniesAssurances">
-      <HeaderImage src={header} />
+      <HeaderImage src={allianzBanner} />
       <div className="CompagniesAssurancesTextContainer">
         <img className="logoPageAssureur" src={allianz} />
         <h1>Allianz assurance prêt : une référence mondiale</h1>

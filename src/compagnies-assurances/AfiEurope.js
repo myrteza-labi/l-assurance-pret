@@ -2,11 +2,13 @@ import React from 'react'
 import header from '../images/pexels-thisisengineering-3862603.jpg';
 import HeaderImage from '../HeaderImage';
 import afieurope from '../images/logos-assurances/afieurope-square.jpg';
+import afieuropeBanner from '../images/afieurope.jpg';
+
 
 function AfiEurope() {
   return (
     <div className="CompagniesAssurances">
-      <HeaderImage src={header} />
+      <HeaderImage src={afieuropeBanner} />
       <div className="CompagniesAssurancesTextContainer">
         <img className="logoPageAssureur" src={afieurope} />
         <h1>Afi-Europe assurance prêt : une offre à la hauteur de toutes les attentes</h1>
