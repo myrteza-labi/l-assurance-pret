@@ -20,42 +20,20 @@ function Footer() {
             <div className="footerLinkSection">
                 <div className="linkBlock" >
                     <ul>
-                        <li className="menuLi">
-                            <HashLink className="menuLi" to="/#" element={<App />}>Accueil</HashLink>
-                        </li>
-                        <li className="menuLi">
-                            <HashLink className="menuLi" to="/comparatif/Comparatif#Comparatif" element={<Comparatif />}>Comparatif</HashLink>
-                        </li>
-                        <li className="menuLi">
-                            <HashLink className="menuLi" to="/courtier/Courtier#Courtier" element={<Courtier />}>Courtier</HashLink>
-                        </li>
+                        <HashLink className="footerLink" to="/#" element={<App />}>Accueil</HashLink>
+                        <HashLink className="footerLink" to="/comparatif/Comparatif#Comparatif" element={<Comparatif />}>Comparatif</HashLink>
+                        <HashLink className="footerLink" to="/courtier/Courtier#Courtier" element={<Courtier />}>Courtier</HashLink>
                     </ul>
                 </div>
                 <div className="linkBlock" >
-                    <ul>
-                        <li className="menuLi">
-                            <HashLink className="menuLi" to="/devis/Devis#Devis" element={<Devis />}>Devis</HashLink>
-                        </li>
-                        <li className="menuLi">
-                            <HashLink className="menuLi" to="/pret/Pret#Pret" element={<Pret />}>Pret</HashLink>
-                        </li>
-                        <li className="menuLi">
-                            <HashLink className="menuLi" to="/compagnies-assurances/CompagniesAssurances#CompagniesAssurances" element={<CompagniesAssurances />}>Société</HashLink>
-                        </li>
-                    </ul>
+                    <HashLink className="footerLink" to="/devis/Devis#Devis" element={<Devis />}onClick={() => window.reload()}>Devis</HashLink>
+                    <HashLink className="footerLink" to="/pret/Pret#Pret" element={<Pret />}>Pret</HashLink>
+                    <HashLink className="footerLink" to="/compagnies-assurances/CompagniesAssurances#CompagniesAssurances" element={<CompagniesAssurances />}>Société</HashLink>
                 </div>
                 <div className="linkBlock" >
-                    <ul>
-                        <li className="menuLi">
-                            <HashLink className="menuLi" to="/tarif/Tarif#Tarif" element={<Tarif />}>Tarif</HashLink>
-                        </li>
-                        <li className="menuLi">
-                            <HashLink to="/Contact/Contact#Contact" element={<Contact />}>Contact</HashLink>
-                        </li>
-                        <li className="menuLi">
-                            <HashLink to="/mentions-legales/MentionsLegales#MentionsLegales" element={<MentionsLegales />}>Mentions légales</HashLink>
-                        </li>
-                    </ul>
+                    <HashLink className="footerLink" to="/tarif/Tarif#Tarif" element={<Tarif />}>Tarif</HashLink>
+                    <HashLink className="footerLink" to="/Contact/Contact#Contact" element={<Contact />}>Contact</HashLink>
+                    <HashLink className="footerLink" to="/mentions-legales/MentionsLegales#MentionsLegales" element={<MentionsLegales />}>Mentions légales</HashLink>
                 </div>
             </div>
             <p className="copyright">Copyright © 2022 L'Assurance Prêt. Tout droits réservés.</p>

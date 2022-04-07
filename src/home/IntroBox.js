@@ -17,8 +17,8 @@ function IntroBox() {
                 <Link className="menuLink" to="/contact/Contact" element={<Contact />}>
                     <button className="introBoxButton empty">Nous contacter</button>
                 </Link>
-                <Link className="menuLink" to="/devis/Devis" element={<Devis />}>
-                    <button className="introBoxButton full">Devis gratuit</button>
+                <Link className="menuLink" to="/devis/Devis" element={<Devis />}onClick={() => window.reload()}>
+                    <button className="introBoxButton full" >Devis gratuit</button>
                 </Link>
             </div>
 
