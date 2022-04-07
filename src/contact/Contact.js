@@ -27,7 +27,7 @@ function onChange(value) {
 function Contact() {
   return (
 
-    <div className="CompagniesAssurances">
+    <div id="Contact" className="CompagniesAssurances">
 
 
 

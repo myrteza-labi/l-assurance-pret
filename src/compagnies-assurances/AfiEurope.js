@@ -6,11 +6,14 @@ import CompagniesAssurances from './CompagniesAssurances';
 import {Link} from "react-router-dom"
 
 
+/*         
+<Link className="liAssurance" to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances/>}>Retour</Link>
+ */
+
 function AfiEurope() {
   return (
       <div className="CompagniesAssurances">
         <HeaderImage src={header} />
-        <Link className="liAssurance" to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances/>}>Retour</Link>
 
         <div className="CompagniesAssurancesTextContainer">
           <img className="logoPageAssureur" src={afieurope}/>

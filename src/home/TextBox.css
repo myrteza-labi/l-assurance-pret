@@ -9,6 +9,9 @@
     margin-top: 20px; 
 }
 
+.textBoxTitle {
+    color: #777; 
+}
 .underline {
     width: 50px; 
     border: 2px solid #fff; 

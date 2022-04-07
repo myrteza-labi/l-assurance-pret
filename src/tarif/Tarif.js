@@ -36,7 +36,7 @@ import afieurope from '../images/logos-assurances/afieurope.jpg';
 function Tarif() {
   return (
 
-    <div className="CompagniesAssurances">
+    <div id="Tarif" className="CompagniesAssurances">
 
         <HeaderImage src={header} />
 

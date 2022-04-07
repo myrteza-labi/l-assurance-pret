@@ -9,7 +9,7 @@ import header from '../images/pexels-anna-shvets-5257276.jpg';
 function Comparatif() {
   return (
 
-    <div className="CompagniesAssurances">
+    <div id="Comparatif" className="CompagniesAssurances">
 
         <HeaderImage src={header} />
 

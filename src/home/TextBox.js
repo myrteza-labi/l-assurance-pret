@@ -30,13 +30,19 @@ function TextBox(props){
                 Qu'est-ce que l’assurance prêt ?
                 </p>
 
-                <div className="simpleBtnTxtBoxCtn">
-                    <SimpleButton title={"en savoir plus"} className={"simpleButton empty"}/>
-                    <SimpleButton title={"être contacté"} className={"simpleButton fullWhite"}/>
-                </div>
+                
                 
         </div>
     )
 }
 
 export default TextBox; 
+
+/*
+
+                <div className="simpleBtnTxtBoxCtn">
+                    <SimpleButton title={"en savoir plus"} className={"simpleButton empty"}/>
+                    <SimpleButton title={"être contacté"} className={"simpleButton fullWhite"}/>
+                </div>
+
+*/

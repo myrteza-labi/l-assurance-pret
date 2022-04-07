@@ -9,7 +9,6 @@ function Alptis() {
   return (
       <div className="CompagniesAssurances">
         <HeaderImage src={header} />
-        <Link className="liAssurance" to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances/>}>Retour</Link>
 
         <div className="CompagniesAssurancesTextContainer">
           <img className="logoPageAssureur" src={alptis}/>

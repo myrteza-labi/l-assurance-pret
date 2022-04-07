@@ -10,7 +10,7 @@ import MainImage from '../MainImage';
 function Courtier() {
   return (
 
-    <div className="Courtier">
+    <div id="Courtier" className="Courtier">
         <div className="courtierSection" >
             <MainImage src={courtier}/>
             <SimpleTextBox className="SimpleTextBox3"

@@ -13,6 +13,11 @@
 .ItemsSectionTitle{
     font-size: 20px; 
 }
+
+.ItemsSection{
+    background-color: #fff; 
+}
+
 .ItemsSection.two{
     background-color: rgb(120, 205, 238); 
 }

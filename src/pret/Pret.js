@@ -10,7 +10,7 @@ import header from '../images/pexels-andrea-piacquadio-3760067.jpg';
 function Pret() {
   return (
 
-    <div className="CompagniesAssurances">
+    <div id="Pret" className="CompagniesAssurances">
 
         <HeaderImage src={header} />
 

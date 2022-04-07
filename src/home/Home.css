@@ -1,0 +1,7 @@
+
+
+.App .IconBox:hover {
+    cursor: auto; 
+    box-shadow: none;
+    transform: none;
+}

@@ -54,7 +54,16 @@ import creditImmo2 from '../images/pexels-will-mu-3802666.jpg';
 */ 
 
 
-
+/**
+ * 
+ * 
+ * 
+ *         <div className="themeBoxCtn">
+          <ThemeBox className={"ThemeBox left"} src={logoInsurance} title={"Assurance"}/>
+          <ThemeBox className={"ThemeBox left"} src={logoInsurance} title={"Assurance"}/>
+          <ThemeBox className={"ThemeBox"} src={logoHome} title={"Crédit immobilier"}/>
+        </div>
+ */
 
 
 
@@ -68,15 +77,10 @@ function Home() {
 
 
 
-
       <div className="firstSection">
         <IntroBox />
 
-        <div className="themeBoxCtn">
-          <ThemeBox className={"ThemeBox left"} src={logoInsurance} title={"Assurance"}/>
-          <ThemeBox className={"ThemeBox left"} src={logoInsurance} title={"Assurance"}/>
-          <ThemeBox className={"ThemeBox"} src={logoHome} title={"Crédit immobilier"}/>
-        </div>
+
         <div className="MainImageTextBoxCtn">
           <MainImage src={houseimage}/>
           <TextBox/>

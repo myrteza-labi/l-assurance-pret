@@ -54,7 +54,7 @@ function Devis() {
     
   return (
 
-    <div className="CompagniesAssurances">
+    <div id="Devis" className="CompagniesAssurances">
 
         <HeaderImage src={header} />
 

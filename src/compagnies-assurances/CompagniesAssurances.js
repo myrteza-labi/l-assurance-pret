@@ -26,7 +26,7 @@ import HeaderImage from '../HeaderImage';
 function CompagniesAssurances() {
   return (
 
-    <div className="CompagniesAssurances">
+    <div id="CompagniesAssurances" className="CompagniesAssurances">
 
         <HeaderImage src={header} />
         <div className="CompagniesAssurancesTextContainer">

@@ -70,7 +70,7 @@ function Navbar(){
       
 
 
-      <Dropdown>
+      <Dropdown className="DropDownButton">
         <Dropdown.Toggle variant="none">
            <li className="menuLi">
             <Link className="menuLink" to="/pret/Pret" element={<Pret/>}>Pret</Link>
@@ -78,31 +78,42 @@ function Navbar(){
         </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Link className="menuLink" to="/pret/PretConso" element={<PretConso/>}>Conso</Link>
-            <Link className="menuLink" to="/pret/PretRachat" element={<PretRachat/>}>Rachat</Link>
+          <li className="menuLi">
+            <Link className="menuLinkDropdown" to="/pret/PretConso" element={<PretConso/>}>Conso</Link>
+          </li>
+          <li className="menuLi">
+            <Link className="menuLinkDropdown" to="/pret/PretRachat" element={<PretRachat/>}>Rachat</Link>
+          </li>
           </Dropdown.Menu>
       </Dropdown>
 
 
-
-
-
-
-
-      <Dropdown>
-        <Dropdown.Toggle variant="none">
-          <li className="menuLi">
-            <Link className="menuLink" to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances/>}>Société</Link>
+      <Dropdown className="DropDownButton">
+        <Dropdown.Toggle  variant="none">
+          <li  className="menuLi">
+            <Link  className="menuLink" to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances/>}>Société</Link>
           </li>        
       </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Link className="menuLink" to="/compagnies-assurances/AfiEurope" element={<AfiEurope/>}>AfiEurope</Link>
-            <Link className="menuLink" to="/compagnies-assurances/Allianz" element={<Allianz/>}>Allianz</Link>
-            <Link className="menuLink" to="/compagnies-assurances/Alptis" element={<Alptis/>}>Alptis</Link>
-            <Link className="menuLink" to="/compagnies-assurances/April" element={<April/>}>April</Link>
-            <Link className="menuLink" to="/compagnies-assurances/Generali" element={<Generali/>}>Generali</Link>
-            <Link className="menuLink" to="/compagnies-assurances/SwissLife" element={<SwissLife/>}>SwissLife</Link>
+          <li className="menuLi">
+            <Link className="menuLinkDropdown" to="/compagnies-assurances/AfiEurope" element={<AfiEurope/>}>AfiEurope</Link>
+          </li>
+          <li className="menuLi">
+            <Link className="menuLinkDropdown" to="/compagnies-assurances/Allianz" element={<Allianz/>}>Allianz</Link>
+          </li>
+          <li className="menuLi">
+            <Link className="menuLinkDropdown" to="/compagnies-assurances/Alptis" element={<Alptis/>}>Alptis</Link>
+          </li>
+          <li className="menuLi">
+            <Link className="menuLinkDropdown" to="/compagnies-assurances/April" element={<April/>}>April</Link>
+          </li>
+          <li className="menuLi">
+            <Link className="menuLinkDropdown" to="/compagnies-assurances/Generali" element={<Generali/>}>Generali</Link>
+          </li>
+          <li className="menuLi">
+            <Link className="menuLinkDropdown" to="/compagnies-assurances/SwissLife" element={<SwissLife/>}>SwissLife</Link>
+          </li>
           </Dropdown.Menu>
       </Dropdown>
 
