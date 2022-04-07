@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './Courtier.css'; 
 import HeaderImage from '../HeaderImage';
@@ -9,7 +10,7 @@ import MainImage from '../MainImage';
 function Courtier() {
   return (
 
-    <div className="CompagniesAssurances">
+    <div className="Courtier">
         <div className="courtierSection" >
             <MainImage src={courtier}/>
             <SimpleTextBox className="SimpleTextBox3"

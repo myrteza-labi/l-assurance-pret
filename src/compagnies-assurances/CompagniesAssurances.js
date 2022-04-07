@@ -29,6 +29,15 @@ function CompagniesAssurances() {
     <div className="CompagniesAssurances">
 
         <HeaderImage src={header} />
+        <div className="CompagniesAssurancesTextContainer">
+            <h1>Nos sociétés d'assurances partenaires</h1>
+            <p className="CompagniesAssurancesParagraphe">
+                L’assurance emprunteur représente une part importante du coût d’un 
+                crédit immobilier.
+                Trouvez l’offre la plus avantageuse tout en maintenant un niveau 
+                de garantie équivalent à celui de la banque.
+            </p>
+        </div>
 
         <div className="listAndImageContainer" >
             <div className="assuranceListe" >
@@ -48,14 +57,11 @@ function CompagniesAssurances() {
         
 
         <div className="CompagniesAssurancesTextContainer">
-            <h1>Pourquoi s’adresser à une société assurance prêt ?</h1>
+            <h2 className="CompagniesAssurancesTitle">Pourquoi s’adresser à une société assurance prêt ?</h2>
             <p className="CompagniesAssurancesParagraphe">
-                L’assurance emprunteur représente une part importante du coût d’un 
-                crédit immobilier. Elle peut atteindre jusqu’à 20 % de celui-ci.
+                Elle peut atteindre jusqu’à 20 % de celui-ci.
                 Il convient par conséquent de faire jouer la concurrence et de se 
                 tourner vers une société assurance prêt performante.
-                Trouvez l’offre la plus avantageuse tout en maintenant un niveau 
-                de garantie équivalent à celui de la banque.
             </p>
 
             <h2 className="CompagniesAssurancesTitle">Une alternative à l’assurance de groupe</h2>

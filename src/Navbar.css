@@ -12,9 +12,17 @@
 
   }
 
+  .dropdown{
+padding: 0;     
+  }
+  .dropdown-toggle::after{
+    display: none; 
+  }
+
 .menu {
     display: flex;
     flex-direction: row;
+    align-items: center; 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -81,6 +89,15 @@
     margin-top: 0px;
     transform: rotate(-405deg);
   }
+
+
+
+  .menuLink{
+    color: #333; 
+    text-decoration: none; 
+  }
+
+
   
   @media (max-width: 850px) {
     .menu-button-container {

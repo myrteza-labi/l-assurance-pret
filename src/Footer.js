@@ -2,6 +2,8 @@ import React from 'react';
 import './Footer.css'; 
 import logowhite from './images/logo-white.png'; 
 import Logo from './home/Logo';
+import MentionsLegales from './mentions-legales/MentionsLegales';
+import {Link} from 'react-router-dom'; 
 
 function Footer(){
     return(
@@ -20,6 +22,8 @@ function Footer(){
                 </div>
                 <div className="linkBlock" >
                     <ul>
+                    <Link className="menuLi" to="/mentions-legales/MentionsLegales" element={<MentionsLegales/>}>MentionsLegales</Link>
+
                         <li>Mentions légales</li>
                         <li>Conditions générales</li>
                         <li>Qui somme nous?</li>
@@ -38,7 +42,7 @@ function Footer(){
             </div>
             <p className="copyright">Copyright © 2022 Phenix Assurances. All Rights Reserved.</p>
 
-
+ 
         </footer>
     )
 }
