@@ -1,42 +1,42 @@
-.CompagniesAssurances{
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
+.CompagniesAssurances {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.CompagniesAssurances .iconBoxCtn{
-    min-width: 700px; 
-    max-width: 1000px;  
+.CompagniesAssurances .iconBoxCtn {
+    min-width: 700px;
+    max-width: 1000px;
 }
-
 
 .liAssurance {
-    display: block; 
-}
-.CompagniesAssurancesTextContainer{
-    max-width: 1000px; 
+    display: block;
 }
 
-.CompagniesAssurancesParagraphe{   
-    line-height: 25px; 
-    margin-top: 10px; 
+.CompagniesAssurancesTextContainer {
+    max-width: 1000px;
+}
+
+.CompagniesAssurancesParagraphe {
+    line-height: 25px;
+    margin-top: 10px;
 }
 
 .CompagniesAssurancesTitle {
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
-.listAndImageContainer{
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-around; 
-    align-items: center; 
-    width: 100%; 
-    margin: 100px 0; 
+.listAndImageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0;
 }
 
-.logoPageAssureur{
-    display: inline-block; 
-    margin-bottom: 30px; 
+.logoPageAssureur {
+    display: inline-block;
+    margin-bottom: 30px;
 }

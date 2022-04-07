@@ -1,17 +1,17 @@
 .ListBox {
-    margin-left: 130px; 
+    margin-left: 130px;
 }
 
 .listBoxUl {
-    list-style-type: circle; 
-    list-style-position: inside; 
+    list-style-type: circle;
+    list-style-position: inside;
 }
 
 .listBoxTitle {
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 .listBoxLi {
-    font-size: 14px; 
-    line-height: 30px; 
+    font-size: 14px;
+    line-height: 30px;
 }

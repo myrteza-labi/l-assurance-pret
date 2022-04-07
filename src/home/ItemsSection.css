@@ -1,52 +1,53 @@
 .ItemsSection {
-    padding: 80px 50px; 
-    display: flex; 
+    padding: 80px 50px;
+    display: flex;
     flex-direction: column;
-    justify-content: center; 
-    text-align: center;      
-}
-.itemsImage{
-    max-width: 50px; 
-    max-height: 50px; 
+    justify-content: center;
+    text-align: center;
 }
 
-.ItemsSectionTitle{
-    font-size: 20px; 
+.itemsImage {
+    max-width: 50px;
+    max-height: 50px;
 }
 
-.ItemsSection{
-    background-color: #fff; 
+.ItemsSectionTitle {
+    font-size: 20px;
 }
 
-.ItemsSection.two{
-    background-color: rgb(120, 205, 238); 
+.ItemsSection {
+    background-color: #fff;
+}
+
+.ItemsSection.two {
+    background-color: rgb(120, 205, 238);
 }
 
 
-.ItemsSection.two .soloItemAndTitleContainer{
-    background-color: #fff; 
+.ItemsSection.two .soloItemAndTitleContainer {
+    background-color: #fff;
 }
 
-.itemsContainer{
-    margin-top: 30px; 
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-around; 
+.itemsContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.soloItemAndTitleContainer{
-    min-width: 150px; 
-    min-height: 150px; 
-    background-color: rgb(120, 205, 238); 
-    border-radius: 100px; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+.soloItemAndTitleContainer {
+    min-width: 150px;
+    min-height: 150px;
+    background-color: rgb(120, 205, 238);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .itemTitle {
-    font-size: 16px; 
-    margin-top: 10px; 
+    font-size: 16px;
+    margin-top: 10px;
     max-width: 100px;
 }

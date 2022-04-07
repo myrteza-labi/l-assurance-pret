@@ -1,15 +1,11 @@
-import React from 'react'; 
-import './ThemeBox.css'; 
-import logoInsurance from '../images/insurance.png'; 
-import logoHome from '../images/home.png'; 
+import React from 'react';
+import './ThemeBox.css';
 
-
-
-function ThemeBox(props){
-    return(
+function ThemeBox(props) {
+    return (
         <div className={props.className}>
             <div className="themeBoxImgContainer">
-                <img src={props.src} className="themeBoxImg"/>
+                <img src={props.src} className="themeBoxImg" />
             </div>
             <h3 className="themeBoxTitle">
                 {props.title}

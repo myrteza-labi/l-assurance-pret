@@ -1,37 +1,37 @@
 .Footer {
-    min-height: 300px; 
-    background-color: rgb(16, 13, 34); 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    color: #aaa; 
-    margin-top: 100px; 
+    min-height: 300px;
+    background-color: rgb(16, 13, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    margin-top: 100px;
 }
-
 
 .footerLinkSection {
-    margin-top: 30px; 
-    width: 100%; 
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-around; 
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.linkBlock ul{ 
-    list-style-type: circle; 
-    cursor: pointer; 
+.linkBlock ul {
+    list-style-type: circle;
+    cursor: pointer;
 }
 
-.linkBlock ul li{ 
-    line-height: 25px; 
-}
-.linkBlock ul li:hover{ 
-    color: #eee; 
+.linkBlock ul li {
+    line-height: 25px;
 }
 
-.copyright{
-    margin-top: 20px; 
-    color: #fff; 
-    font-size: 10px; 
+.linkBlock ul li:hover {
+    color: #eee;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 10px;
 }

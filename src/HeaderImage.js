@@ -1,11 +1,10 @@
 import React from 'react'
-import "./HeaderImage.css"; 
-
+import "./HeaderImage.css";
 
 function HeaderImage(props) {
   return (
     <div className="HeaderImage" >
-        <img className="HeaderImagePicture" src={props.src}/>
+      <img className="HeaderImagePicture" src={props.src} />
     </div>
   )
 }

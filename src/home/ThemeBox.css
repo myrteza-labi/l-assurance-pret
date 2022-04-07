@@ -1,25 +1,25 @@
 .ThemeBox {
-    border: 2px solid rgb(109, 109, 109); 
-    border-radius: 6px; 
-    height: 200px; 
-    width: 320px; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    margin-bottom: 30px; 
+    border: 2px solid rgb(109, 109, 109);
+    border-radius: 6px;
+    height: 200px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .ThemeBox.left {
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .themeBoxImg {
-    display: inline-block; 
-    margin-top: 30px; 
-    margin-bottom: 20px; 
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .themeBoxTitle {
-    font-size: 18px; 
-    color: #fff; 
+    font-size: 18px;
+    color: #fff;
 }

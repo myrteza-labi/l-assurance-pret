@@ -1,8 +1,8 @@
-import React from 'react'; 
-import './ListBox.css'; 
+import React from 'react';
+import './ListBox.css';
 
-function ListBox(){
-    return(
+function ListBox() {
+    return (
         <div className="ListBox">
             <h4 className="listBoxTitle">listBoxTitle</h4>
             <ul className="listBoxUl">

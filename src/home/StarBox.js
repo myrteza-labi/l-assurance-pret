@@ -1,9 +1,9 @@
-import React from 'react'; 
-import './StarBox.css'; 
+import React from 'react';
+import './StarBox.css';
 import starLogo from '../images/star.png'
 
-function StarBox(){
-    return(
+function StarBox() {
+    return (
         <div className="StarBox">
             <img src={starLogo} className="starBoxImage" />
             <h3 className="starBoxTitle">starBoxTitle</h3>
