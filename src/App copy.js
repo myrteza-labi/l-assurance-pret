@@ -1,4 +1,8 @@
-import './App.css';
+
+
+
+
+/* import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from 'react-router-dom';
 import Home from './home/Home.js';
@@ -24,10 +28,11 @@ import Contact from './contact/Contact';
 
 
 
+
 function App() {
   return (
     <div className="App">
-    <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances />} />
@@ -53,3 +58,40 @@ function App() {
 }
 
 export default App;
+*/
+
+/*
+import React from 'react';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import './App.css';
+
+import Home from './components/Home';
+import About from './components/About';
+import Online from './components/Online';
+import Offline from './components/Offline';
+import Contact from './components/Contact';
+
+import Navbarmenu from './components/menu/Navbarmenu';
+
+function App() {
+  return (
+    <div>
+
+        <Navbarmenu />
+
+        <Routes> 
+          <Route exact path="/" element={Home}/>
+          <Route path="/About" element={About}/>
+          <Route path="/Online" element={Online}/>
+          <Route path="/Offline" element={Offline}/>
+          <Route path="/Contact" element={Contact}/>
+
+          
+        </Routes>
+
+    </div>
+  );
+}
+
+export default App;
+*/
