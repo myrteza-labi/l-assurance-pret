@@ -22,12 +22,14 @@ import MentionsLegales from './mentions-legales/MentionsLegales';
 import Contact from './contact/Contact';
 
 
-
+import Logo from './home/Logo';
+import logo from './images/logo.png';
 
 function App() {
   return (
     <div className="App">
     <Navbar/>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances />} />

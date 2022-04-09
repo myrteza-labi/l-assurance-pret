@@ -1,21 +1,33 @@
 
-.container {
+.Navbar {
   width: 100%;
-	padding: 0 20px;
-	margin-right:auto;
-	margin-left:auto
-}
-img {
-  max-width: 100%;
-  height: auto;
+  height: 70px; 
+	padding: 0 40px;
+  /* Ajoute apres  */
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center; 
 }
 
+
+
+  /* img {
+  max-width: 100%;
+  height: auto;
+}*/
+
+
+/*
 .sec__one {
     position: relative;
     width: 100%;
     display: flex;
     padding: 60px 0;
 }
+*/
+
+/*
 .sec__one h1{
   text-align: center;
   display: block;
@@ -23,21 +35,25 @@ img {
   color: #07a8ff;
   font-family: 'Roboto', sans-serif;
 }
+*/
+
+/*
 .navBar .logo img {
   float: left;
   max-height: 120px;
 }
+*/
 .is-active {
   color: #ff5800!important;
 }
-
+/*
 .navBar .col-md-3 {
   z-index: 7;
-}
+}*/
 ul.main-menu {
   display: inline-flex;
   list-style: none;
-  margin: 0px auto 0;
+  margin: 15px 0;
   padding: 0;
   float: right;
   z-index: 7;
@@ -63,16 +79,19 @@ li {
   text-decoration: none;
   cursor: pointer;
 }
+
+/*
 .header__middle__logo{
+  
   width: 20%;
   display: inline-block;
   float: left;
-}
+} */
+/*
 .header__middle__menus {
-  width: 70%;
-  display: inline-block;
-  float: left;
+  
 }
+*/
 .menu-item.menu__qqqitem a{
   margin: 27px 10px;
 }
@@ -164,12 +183,13 @@ li {
 .main-nav .menu-item:hover > a {color: #07a8ff !important}
 .main-nav .menubar__button {
   display: block!important;
+  /*
   float: right;
+  */
   background-color: #080808;
   color: #fff;
   padding: 6px 7px;
   border-radius: 5px;
-  margin: 27px auto 0;
   cursor: pointer;
   position: relative;
   z-index: 10037;
@@ -196,215 +216,3 @@ li {
 .menu-item .sub__menus__full a {text-align: left;}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.Navbar {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fff;
-  color: #000;
-  height: 50px;
-  padding: 40px;
-  border-bottom: 1px solid black;
-  position: sticky;
-  top: 0; 
-}
-
-.dropdown {
-  padding: 0;
-}
-
-.dropdown-toggle::after {
-  display: none;
-}
-
-.menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu .menuLi {
-  margin: 0 1rem;
-  cursor: pointer;
-  transition: transform .1s;
-}
-
-.menu .menuLi:hover {
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.menu-button-container {
-  display: none;
-  height: 100%;
-  width: 30px;
-  cursor: pointer;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#menu-toggle {
-  display: none;
-}
-
-.menu-button,
-.menu-button::before,
-.menu-button::after {
-  display: block;
-  background-color: #333;
-  position: absolute;
-  height: 4px;
-  width: 30px;
-  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  border-radius: 2px;
-}
-
-.menu-button::before {
-  content: '';
-  margin-top: -8px;
-}
-
-.menu-button::after {
-  content: '';
-  margin-top: 8px;
-}
-
-#menu-toggle:checked+.menu-button-container .menu-button::before {
-  margin-top: 0px;
-  transform: rotate(405deg);
-}
-
-#menu-toggle:checked+.menu-button-container .menu-button {
-  background: rgba(255, 255, 255, 0);
-}
-
-#menu-toggle:checked+.menu-button-container .menu-button::after {
-  margin-top: 0px;
-  transform: rotate(-405deg);
-}
-
-.menuLinkDropdown {
-  display: inline-block;
-  color: #333;
-  text-decoration: none;
-  margin-bottom: 5px;
-  padding: 10px;
-  display: block;
-}
-
-.menuLinkDropdown:hover {
-  background-color: #e2f8fd;
-  color: #333;
-}
-
-.menuLink {
-  color: #333;
-  text-decoration: none;
-}
-
-.DropDownButton:hover div.dropdown-menu.show {
-  display: block;
-}
-
-.DropDownButton:hover div.dropdown-menu {
-  display: block;
-}
-
-div.dropdown-menu {
-  padding: 0px;
-  display: none;
-}
-
-div.dropdown-menu.show {
-  padding: 0px;
-  display: none;
-}
-
-.dropdown li.menuLi {
-  margin: 0;
-  display: block;
-}
-
-.dropdown .menuLi:hover {
-  transform: none;
-
-}
-
-/* Retire le boxshadow d'origine du bouton ReactBootsrap*/
-/*
-.btn:focus {
-  box-shadow: none;
-}
-
-@media (max-width: 850px) {
-  .menu-button-container {
-    display: flex;
-  }
-
-  .menu {
-    position: absolute;
-    top: 0;
-    margin-top: 80px;
-    left: 0;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #menu-toggle~.menu li {
-    height: 0;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  #menu-toggle:checked~.menu li {
-    border: 1px solid #333;
-    height: 2.5em;
-    padding: 0.5em;
-    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .menu>li {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0.5em 0;
-    width: 100%;
-    color: white;
-    background-color: #222;
-  }
-
-  .menu>li:not(:last-child) {
-    border-bottom: 1px solid #444;
-  }
-}
-*/

@@ -74,13 +74,8 @@ const Navbar = (props) => {
 
 
   return (
-    <header className="header__middle">
-      <div className="container">
-        <div className="row">
-          <div className="header__middle__logo">
+      <div className="Navbar">
             <Logo className={"Logo"} src={logo} />
-          </div>
-          <div className="header__middle__menus">
             <nav className="main-nav " >
               {/* Responsive Menu Button */}
               {isResponsiveclose === true ? <>
@@ -135,10 +130,7 @@ const Navbar = (props) => {
 
                     </ul>
             </nav>
-          </div>
-        </div>
       </div>
-    </header>
   )
 }
 
