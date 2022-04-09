@@ -1,8 +1,7 @@
 
 .container {
   width: 100%;
-	padding-right:15px;
-	padding-left:15px;
+	padding: 0 20px;
 	margin-right:auto;
 	margin-left:auto
 }
@@ -22,7 +21,7 @@ img {
   display: block;
   margin: 0 auto;
   color: #07a8ff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .navBar .logo img {
   float: left;
@@ -54,12 +53,12 @@ li {
   list-style-type: none;
 }
 .menu-item a {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 40px;
   position: relative;
   display: block;
-  color: #545050;
+  color: #333;
   margin: 27px 17px;
   text-decoration: none;
   cursor: pointer;

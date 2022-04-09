@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css'
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FiAlignRight, FiXCircle } from "react-icons/fi";
 import Dropdown from 'react-bootstrap/Dropdown';
 import Logo from './home/Logo';
@@ -22,38 +22,56 @@ import SwissLife from './compagnies-assurances/SwissLife';
 import Tarif from './tarif/Tarif';
 
 
-function Navbar() {
+
+
+
+
+const Navbar = (props) => {
+
   const [isMenu, setisMenu] = useState(false);
   const [isResponsiveclose, setResponsiveclose] = useState(false);
   const toggleClass = () => {
+
     setisMenu(isMenu === false ? true : false);
     setResponsiveclose(isResponsiveclose === false ? true : false);
-  };
-
-  const devis = () => {
-    toggleClass();
-    window.reload();
-  }
+};
 
   let boxClass = ["main-menu menu-right menuq1"];
-  if (isMenu) {
-    boxClass.push('menuq2');
-  } else {
-    boxClass.push('');
+  if(isMenu) {
+      boxClass.push('menuq2');
+  }else{
+      boxClass.push('');
   }
 
-  const [isMenuSubMenu, setMenuSubMenu] = useState(false);
+  const [isMenuSubMenu1, setMenuSubMenu1] = useState(false);
+  const [isMenuSubMenu2, setMenuSubMenu2] = useState(false);
 
-  const toggleSubmenu = () => {
-    setMenuSubMenu(isMenuSubMenu === false ? true : false);
-  };
+  const toggleSubmenu1 = (e) => {
+      setMenuSubMenu1(isMenuSubMenu1 === false ? true : false);
 
-  let boxClassSubMenu = ["sub__menus"];
-  if (isMenuSubMenu) {
-    boxClassSubMenu.push('sub__menus__Active');
-  } else {
-    boxClassSubMenu.push('');
+      };
+
+      const toggleSubmenu2 = (e) => {
+        setMenuSubMenu2(isMenuSubMenu2 === false ? true : false);
+  
+        };
+
+      let boxClassSubMenu1 = ["sub__menus"];
+      let boxClassSubMenu2 = ["sub__menus"];
+
+  if(isMenuSubMenu1 == true) {
+      boxClassSubMenu1.push('sub__menus__Active');
+  } else if(isMenuSubMenu2 === true) {
+      boxClassSubMenu2.push('sub__menus__Active');
+  } else if(isMenuSubMenu1 == false){
+      boxClassSubMenu1.push('');
+  } else if(isMenuSubMenu2 == false){
+      boxClassSubMenu2.push('');
   }
+
+
+ 
+
 
   return (
     <header className="header__middle">
@@ -72,27 +90,27 @@ function Navbar() {
               </>}
               <ul className={boxClass.join(' ')}>
                 <li className="menu-item">
-                  <Link exact activeClassName='is-active' onClick={toggleClass} to={`/`} element={<App />}> Accueil </Link>
+                  <Link  activeClassName='is-active' onClick={toggleClass} to={`/`} element={<App />}> Accueil </Link>
                 </li>
                 <li className="menu-item">
-                  <Link exact activeClassName='is-active' onClick={toggleClass} to="/comparatif/Comparatif" element={<Comparatif />}> Comparatif </Link>
+                  <Link  activeClassName='is-active' onClick={toggleClass} to="/comparatif/Comparatif" element={<Comparatif />}> Comparatif </Link>
                 </li>
                 <li className="menu-item">
-                  <Link exact activeClassName='is-active' onClick={toggleClass} to="/courtier/Courtier" element={<Courtier />}> Courtier </Link>
+                  <Link  activeClassName='is-active' onClick={toggleClass} to="/courtier/Courtier" element={<Courtier />}> Courtier </Link>
                 </li>
                 <li className="menu-item">
-                  <Link exact activeClassName='is-active' onClick={devis} to="/devis/Devis" element={<Devis />}> Devis </Link>
+                  <Link activeClassName='is-active' onClick={toggleClass} to="/devis/Devis" element={<Devis />}> Devis </Link>
                 </li>
-                <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" >
+                <li onClick={toggleSubmenu1} className="menu-item sub__menus__arrows" >
                   <Link to="/pret/Pret" element={<Pret />}>Pret</Link>
-                  <ul className={boxClassSubMenu.join(' ')} >
+                  <ul className={boxClassSubMenu1.join(' ')} >
                     <li> <Link onClick={toggleClass} activeClassName='is-active' to={`/pret/PretConso`} element={<PretConso />}> Prêt conso</Link> </li>
                     <li> <Link onClick={toggleClass} activeClassName='is-active' to={`/pret/PretRachat`} element={<PretRachat />}> Prêt Rachat</Link> </li>
                   </ul>
                 </li>
-                <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" >
+                <li onClick={toggleSubmenu2} className="menu-item sub__menus__arrows" >
                   <Link to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances />}>Société</Link>
-                  <ul className={boxClassSubMenu.join(' ')} >
+                  <ul className={boxClassSubMenu2.join(' ')} >
                     <li>
                       <Link onClick={toggleClass} activeClassName='is-active' to="/compagnies-assurances/AfiEurope" element={<AfiEurope />}>AfiEurope</Link>
                     </li>
@@ -112,9 +130,10 @@ function Navbar() {
                   </ul>
                 </li>
                 <li className="menu-item">
-                  <Link exact activeClassName='is-active' onClick={devis} to="/tarif/Tarif" element={<Tarif />}>Tarif</Link>
+                  <Link activeClassName='is-active' onClick={toggleClass} to="/tarif/Tarif" element={<Tarif />}>Tarif</Link>
                 </li>
-              </ul>
+
+                    </ul>
             </nav>
           </div>
         </div>
@@ -129,3 +148,37 @@ export default Navbar;
 
 
 
+/*
+
+<li id="li1"  onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Shop  </Link>
+                        <ul className={boxClassSubMenu1.join(' ')} > 
+                            <li id="li3"> <Link onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Online Shop </Link> </li>
+                            <li id="li4"><Link onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Offline Shop </Link> </li>
+                        </ul>
+                    </li>
+                    <li  className="menu-item" >
+                        <Link exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </Link> 
+                    </li>
+                    <li className="menu-item " ><Link onClick={toggleClass} activeClassName='is-active' to={`/About`}> About </Link> </li>
+                    <li id="li2" onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Shop  </Link>
+                        <ul className={boxClassSubMenu2.join(' ')} > 
+                            <li id="li5"> <Link onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Online Shop </Link> </li>
+                            <li id="li6"><Link onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Offline Shop </Link> </li>
+                        </ul>
+                    </li>
+
+                    <li className="menu-item " ><Link onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </Link> </li>
+
+
+
+
+
+
+
+
+
+
+
+              
+
+*/
