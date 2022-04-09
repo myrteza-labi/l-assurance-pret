@@ -69,6 +69,10 @@ const Navbar = (props) => {
       boxClassSubMenu2.push('');
   }
 
+  function devis(){
+    toggleClass(); 
+    window.reload(); 
+  }
 
  
 
@@ -94,7 +98,7 @@ const Navbar = (props) => {
                   <Link  activeClassName='is-active' onClick={toggleClass} to="/courtier/Courtier" element={<Courtier />}> Courtier </Link>
                 </li>
                 <li className="menu-item">
-                  <Link activeClassName='is-active' onClick={toggleClass} to="/devis/Devis" element={<Devis />}> Devis </Link>
+                  <Link activeClassName='is-active' onClick={devis} to="/devis/Devis" element={<Devis />}> Devis </Link>
                 </li>
                 <li onClick={toggleSubmenu1} className="menu-item sub__menus__arrows" >
                   <Link to="/pret/Pret" element={<Pret />}>Pret</Link>

@@ -26,7 +26,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="linkBlock" >
-                    <HashLink className="footerLink" to="/devis/Devis#Devis" element={<Devis />}onClick={() => window.reload()}>Devis</HashLink>
+                    <HashLink className="footerLink" to="/devis/Devis#Devis" element={<Devis />} onClick={() => window.reload()}>Devis</HashLink>
                     <HashLink className="footerLink" to="/pret/Pret#Pret" element={<Pret />}>Pret</HashLink>
                     <HashLink className="footerLink" to="/compagnies-assurances/CompagniesAssurances#CompagniesAssurances" element={<CompagniesAssurances />}>Société</HashLink>
                 </div>
