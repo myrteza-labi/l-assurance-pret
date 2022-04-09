@@ -40,7 +40,7 @@ function Home() {
       <div className="firstSection">
         <IntroBox />
         <div className="MainImageTextBoxCtn">
-          <MainImage src={houseimage} />
+          <MainImage id={"introImg"} src={houseimage} />
           <TextBox />
         </div>
       </div>

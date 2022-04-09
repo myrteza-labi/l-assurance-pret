@@ -65,4 +65,16 @@
     .introBoxBtnCtn {
         margin: 0; 
     }
+    .introBoxTitle {
+        max-width: 100%;
+    }
+    .introBoxParagraphe {
+        max-width: 100%;
+    }
+    #introImg {
+        width: 200px; 
+    }
+    .underline{
+        margin-left: 50px; 
+    }
 }
