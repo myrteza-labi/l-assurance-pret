@@ -10,7 +10,7 @@ function Courtier() {
 
     <div id="Courtier" className="Courtier">
       <div className="courtierSection" >
-        <MainImage src={courtier} />
+        <MainImage id={"imgCourtier"} src={courtier} />
         <SimpleTextBox className="SimpleTextBox3"
           title={"Courtier assurance prêt : un professionnel au service des emprunteurs"}
           para1={

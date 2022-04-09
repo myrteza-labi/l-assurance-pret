@@ -1,6 +1,6 @@
 .courtierSection .MainImage {
     max-width: 500px;
-    max-height: 600px;
+    max-height: auto;
 }
 
 .courtierSection {
@@ -11,4 +11,24 @@
 
 .Courtier {
     margin-top: 100px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+    .Courtier{
+        margin: 50px 0 0 0; 
+        padding: 0 50px; 
+    }
+    #imgCourtier{
+        width: 200px;  
+        margin: 0 0 20px 0; 
+    }
+    .courtierSection {
+        display: flex;
+        flex-direction: column;
+    }
+    .SimpleTextBox3 {
+        max-width: 100%;
+        max-height: auto;
+        padding: 0; 
+    }
 }

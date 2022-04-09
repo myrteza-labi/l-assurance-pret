@@ -31,7 +31,7 @@
 .themeBoxCtn {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     align-items: center;
     justify-content: center;
 }
@@ -87,22 +87,45 @@
     margin-top: 15px;
 }
 
-.titleAndIconboxTextCtn h3 {
-    font-size: 22px;
-}
-
 .courtierSection {
     display: flex;
     flex-direction: row;
 }
 
-@media screen and (max-width: 900px) {
-    .MainImageTextBoxCtn {
-        flex-direction: column;
+@media screen and (min-width: 500px) and (max-width: 900px){
+    .IntroBox{
+        padding: 50px 0 0 0;  
     }
+    .introBoxBtnCtn {
+        margin: 0; 
+    }
+    .MainImageTextBoxCtn {
+        padding: 0 50px; 
+        margin: 50px 0 0 0; 
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+    .firstSection {
+        padding: 0 0 50px 0; 
+    }
+    .MainImageTextBoxCtn.two {
+        padding: 40px 20px; 
+    }
+    .iconBoxCtn {
+        padding: 0; 
+    }
+    .titleAndIconboxTextCtn {
+        padding: 50px 0; 
+    }
+
+    .CompagniesAssurancesTextContainer {
+        padding: 0px 50px; 
+    }
+
 }
 
-
-
+@media screen and (max-width: 900px) {
+    
+}
 
 

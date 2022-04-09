@@ -78,12 +78,12 @@ function Home() {
           paraTitle3={"Comment utiliser le comparatif d’assurance de prêt ?"}
           para3={"Assez simple à exploiter, le comparatif d’assurance de prêt fonctionne de manière intuitive et simplifiée. Il suffit à l’emprunteur de fournir les renseignements le concernant ainsi que les détails sur les spécificités du crédit sollicité, afin de disposer de plusieurs devis.La plupart du temps, les courtiers d’assurance en ligne proposent ce service gratuitement sur leur site afin d’aider les internautes à avoir un aperçu des différentes conditions proposées par les assureurs. C’est un outil incontournable pour pouvoir trier les meilleures offres et faire le plus d’économies possible."}
         />
-        <MainImage src={compareImg} />
+        <MainImage id={"imgCompare"} src={compareImg} />
       </div>
       <div className="titleAndIconboxTextCtn">
         <div className="titleAndIconbox">
-          <h3>Société d'assurance de prêt</h3>
-          <p>Découvrez les compagnies assurance emprunteur</p>
+          <h3 className="iconSectionTitle">Société d'assurance de prêt</h3>
+          <p className="iconSectionParagraphe">Découvrez les compagnies assurance emprunteur</p>
         </div>
         <div className="iconBoxCtn">
           <IconBox src={ag2r} />

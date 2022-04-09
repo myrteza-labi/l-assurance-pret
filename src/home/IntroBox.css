@@ -57,3 +57,12 @@
 .introBoxButton.full:hover {
     background-color: rgba(231, 186, 39, 0.9);
 }
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+    .IntroBox{
+        padding: 50px 0 0 0;  
+    }
+    .introBoxBtnCtn {
+        margin: 0; 
+    }
+}

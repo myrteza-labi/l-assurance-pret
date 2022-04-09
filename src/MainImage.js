@@ -3,7 +3,7 @@ import './MainImage.css';
 
 function MainImage(props) {
     return (
-        <img src={props.src} className="MainImage" />
+        <img id={props.id} src={props.src} className="MainImage" />
     )
 }
 

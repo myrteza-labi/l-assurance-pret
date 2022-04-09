@@ -39,3 +39,9 @@
     color: #fff;
     font-size: 10px;
 }
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+    .Footer{
+        margin: 50px 0 0 0; 
+    }
+}

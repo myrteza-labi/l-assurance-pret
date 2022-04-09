@@ -2,3 +2,13 @@
     display: inline-block;
     max-width: 400px;
 }
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+    .MainImage {
+        max-width: 300px;
+    }
+    #imgCompare {
+        display: none; 
+    }
+}
+
