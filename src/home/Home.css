@@ -6,6 +6,9 @@
     .iconSectionTitle {
         font-size: 30px; 
     }
+    #homeSimpleTextBox .SimpleTextParagraphe{
+        padding: 0; 
+    }
 }
 
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import './TextBox.css';
 
-function TextBox() {
+function TextBox(props) {
     return (
-        <div className="TextBox">
+        <div id={props.id} className="TextBox">
             <h3 className="textBoxTitle">L'assurance prêt :
                 <span className="textBoxTitleSpan"> Simulation des tarifs et Comparatif des garanties
                 </span>

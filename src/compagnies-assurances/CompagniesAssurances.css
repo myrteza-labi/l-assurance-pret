@@ -53,5 +53,7 @@
     .logoPageAssureur {
         margin-left: 50px; 
     }
-    
+    #homeTextbox p{
+        padding: 0; 
+    }
 }

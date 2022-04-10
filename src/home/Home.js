@@ -41,7 +41,7 @@ function Home() {
         <IntroBox />
         <div className="MainImageTextBoxCtn">
           <MainImage id={"introImg"} src={houseimage} />
-          <TextBox />
+          <TextBox id={"homeTextbox"} />
         </div>
       </div>
       <div className="seconSection">
@@ -69,7 +69,7 @@ function Home() {
         />
       </div>
       <div className="MainImageTextBoxCtn two">
-        <SimpleTextBox className={"SimpleTextBox"}
+        <SimpleTextBox id={"homeSimpleTextBox"} className={"SimpleTextBox"}
           title={"Comparatif assurance prêt : un outil indispensable"}
           paraTitle1={"Comparez les produits Comparatif assurance prêt : un outil indispensable"}
           para1={"La loi Lagarde adoptée en 2010 offre à l’emprunteur le libre choix quant au prestataire qui va lui fournir la garantie pour couvrir son crédit immobilier. La sélection de l’assurance de prêt adapté à son profil devient par conséquent cruciale pour réaliser des économies et bénéficier de la meilleure protection"}
