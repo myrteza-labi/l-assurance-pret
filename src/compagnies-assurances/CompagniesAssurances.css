@@ -6,7 +6,6 @@
 }
 
 .CompagniesAssurances .iconBoxCtn {
-    min-width: 700px;
     max-width: 1000px;
 }
 
@@ -43,6 +42,9 @@
 
 @media screen and (min-width: 500px) and (max-width: 900px){
     .CompagniesAssurancesTextContainer{
+        padding: 0px; 
+    }
+    .Courtier .SimpleTextParagraphe{
         padding: 0px; 
     }
     .CompagniesAssurancesTextContainer h1,  .CompagniesAssurancesTextContainer h2 , p{

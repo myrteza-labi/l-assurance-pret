@@ -1,16 +1,16 @@
 .TextBox {
-    max-width: 400px;
+    max-width: 800px;
     margin-left: 50px;
 }
 
 .textBoxParagraphe {
     font-size: 14px;
-    color: #aaa;
+    color: #ddd;
     margin-top: 20px;
 }
 
 .textBoxTitle {
-    color: #777;
+    color: #bbb;
 }
 
 .underline {
@@ -30,6 +30,14 @@
     }
     .TextBox{
         margin: 50px 0 0 0; 
-        min-width: 600px; 
+    }
+}
+
+@media screen and (max-width: 500px){
+    .MainImageTextBoxCtn{
+        margin: 0;
+    }
+    .textBoxParagraphe {
+        padding: 0; 
     }
 }
