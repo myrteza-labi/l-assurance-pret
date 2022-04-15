@@ -5,7 +5,7 @@ import header from '../images/pexels-andrea-piacquadio-3760067.jpg';
 
 function MentionsLegales() {
   return (
-    <div id="MentionsLegales" className="CompagniesAssurances">
+    <div id="MentionsLegales" className="Societe">
       <HeaderImage src={header} />
       <div className="CompagniesAssurancesTextContainer">
         <h1>Mentions légales</h1>

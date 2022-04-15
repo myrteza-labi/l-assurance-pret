@@ -1,11 +1,11 @@
 import React from 'react'
-import './PretConso.css';
+import './Conso.css';
 import HeaderImage from '../HeaderImage';
 import header from '../images/pexels-andrea-piacquadio-3760067.jpg';
 
-function PretConso() {
+function Conso() {
     return (
-        <div className="CompagniesAssurances">
+        <div className="Societe">
             <HeaderImage src={header} />
             <div className="CompagniesAssurancesTextContainer">
                 <h1>Prêt Conso : une forme de crédit très sollicitée</h1>
@@ -46,7 +46,7 @@ function PretConso() {
                     reconstruit au fur et à mesure
                     de son remboursement.
                 </p>
-                <h2 className="CompagniesAssurancesTitle">Prêt conso et assurance de prêt</h2>
+                <h2 className="CompagniesAssurancesTitle">Prêt Conso et assurance de prêt</h2>
                 <p className="CompagniesAssurancesParagraphe">
                     Dans le cas d’un crédit à la consommation,
                     l’assurance de prêt n’est pas obligatoire.
@@ -66,5 +66,5 @@ function PretConso() {
     )
 }
 
-export default PretConso;
+export default Conso;
 

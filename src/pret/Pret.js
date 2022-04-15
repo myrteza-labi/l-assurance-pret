@@ -9,7 +9,7 @@ import header from '../images/pexels-andrea-piacquadio-3760067.jpg';
 
 function Pret() {
     return (
-        <div id="Pret" className="CompagniesAssurances">
+        <div id="Pret" className="Societe">
             <HeaderImage src={header} />
             <div className="CompagniesAssurancesTextContainer">
                 <h1>Comprendre les subtilités d’un prêt immobilier</h1>

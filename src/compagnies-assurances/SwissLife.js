@@ -6,7 +6,7 @@ import swisslife from '../images/logos-assurances/swisslife-square.jpg';
 
 function SwissLife() {
   return (
-    <div className="CompagniesAssurances">
+    <div className="Societe">
       <HeaderImage src={header} />
       <div className="CompagniesAssurancesTextContainer">
         <img className="logoPageAssureur" src={swisslife} />

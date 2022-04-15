@@ -6,7 +6,7 @@ import april from '../images/logos-assurances/april-square.jpg';
 
 function April() {
   return (
-    <div className="CompagniesAssurances">
+    <div className="Societe">
       <HeaderImage src={header} />
       <div className="CompagniesAssurancesTextContainer">
         <img className="logoPageAssureur" src={april} />

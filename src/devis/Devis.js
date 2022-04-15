@@ -6,24 +6,27 @@ import header from '../images/pexels-polina-tankilevitch-6927354.jpg';
 function Devis() {
     // devis AS du Grand Lyon: ne pas modifier ou 
     // supprimer le code ci dessous 
-    window.addEventListener("load", function (event) {
-        (function (param1d, param2s, param3id) {
-            let js = param1d.getElementsByTagName(param2s)[0];
-            let dpjs = param1d.getElementsByTagName(param2s)[0];
-            if (param1d.getElementById(param3id) === true) {
-                return
-            };
-            js = param1d.createElement(param2s);
-            js.iparam3id = param3id;
-            js.src = "//simulateur.ascourtage.fr/js/sdkif.js";
-            dpjs.parentNode.insertBefore(js, dpjs);
-        }
-            (document, "script", "asInit"));
-            var _AppCfg = { version: "0.1", appId: "votreass" };
-    });
+    function devis(){
+   
+            (function (param1d, param2s, param3id) {
+                let js = param1d.getElementsByTagName(param2s)[0];
+                let dpjs = param1d.getElementsByTagName(param2s)[0];
+                if (param1d.getElementById(param3id) === true) {
+                    return
+                };
+                js = param1d.createElement(param2s);
+                js.iparam3id = param3id;
+                js.src = "//simulateur.ascourtage.fr/js/sdkif.js";
+                dpjs.parentNode.insertBefore(js, dpjs);
+            }
+                (document, "script", "asInit"));
+                var _AppCfg = { version: "0.1", appId: "votreass" };
+        ;
+    }
+    
 
     return (
-        <div id="Devis" className="Devis">
+        <div onLoad={devis()} id="Devis" className="Devis">
             <HeaderImage src={header} />
             <div className="CompagniesAssurancesTextContainer">
                 <h1>Devis assurance prêt : un outil pour mieux comparer et choisir</h1>

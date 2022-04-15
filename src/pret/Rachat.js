@@ -1,11 +1,11 @@
 import React from 'react'
-import './PretRachat.css';
+import './Rachat.css';
 import HeaderImage from '../HeaderImage';
 import header from '../images/pexels-andrea-piacquadio-3760067.jpg';
 
-function PretRachat() {
+function Rachat() {
     return (
-        <div className="CompagniesAssurances">
+        <div className="Societe">
             <HeaderImage src={header} />
             <div className="CompagniesAssurancesTextContainer">
                 <h1>Rachat prêt : comment ça marche ?</h1>
@@ -63,5 +63,5 @@ function PretRachat() {
     )
 }
 
-export default PretRachat;
+export default Rachat;
 

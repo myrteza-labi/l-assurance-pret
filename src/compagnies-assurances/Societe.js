@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import './CompagniesAssurances.css';
+import './Societe.css';
 import AfiEurope from './AfiEurope';
 import Allianz from './Allianz';
 import Alptis from './Alptis';
@@ -17,9 +17,9 @@ import afieurope from '../images/logos-assurances/afieurope.jpg';
 import header from '../images/pexels-thisisengineering-3862603.jpg';
 import HeaderImage from '../HeaderImage';
 
-function CompagniesAssurances() {
+function Societe() {
     return (
-        <div id="CompagniesAssurances" className="CompagniesAssurances">
+        <div id="Societe" className="Societe">
             <HeaderImage src={header} />
             <div className="CompagniesAssurancesTextContainer">
                 <h1>Nos sociétés d'assurances partenaires</h1>
@@ -87,5 +87,5 @@ function CompagniesAssurances() {
     )
 }
 
-export default CompagniesAssurances;
+export default Societe;
 

@@ -4,7 +4,7 @@ import header from '../images/pexels-oleg-magni-2058137.jpg';
 
 function Tarif() {
     return (
-        <div id="Tarif" className="CompagniesAssurances">
+        <div id="Tarif" className="Societe">
             <HeaderImage src={header} />
             <div className="CompagniesAssurancesTextContainer">
                 <h1>Comment trouver le meilleur tarif assurance prêt ?</h1>

@@ -7,7 +7,7 @@ import afieuropeBanner from '../images/afieurope.jpg';
 
 function AfiEurope() {
   return (
-    <div className="CompagniesAssurances">
+    <div className="Societe">
       <HeaderImage src={afieuropeBanner} />
       <div className="CompagniesAssurancesTextContainer">
         <img className="logoPageAssureur" src={afieurope} />

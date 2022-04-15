@@ -5,7 +5,7 @@ import alptis from '../images/logos-assurances/alptis-square.jpg';
 
 function Alptis() {
   return (
-    <div className="CompagniesAssurances">
+    <div className="Societe">
       <HeaderImage src={header} />
       <div className="CompagniesAssurancesTextContainer">
         <img className="logoPageAssureur" src={alptis} />

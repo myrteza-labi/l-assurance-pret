@@ -1,11 +1,11 @@
-.CompagniesAssurances {
+.Societe {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.CompagniesAssurances .iconBoxCtn {
+.Societe .iconBoxCtn {
     max-width: 1000px;
 }
 

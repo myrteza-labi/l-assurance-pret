@@ -7,7 +7,7 @@ import allianzBanner from '../images/allianz-banner.jpg';
 
 function Allianz() {
   return (
-    <div className="CompagniesAssurances">
+    <div className="Societe">
       <HeaderImage src={allianzBanner} />
       <div className="CompagniesAssurancesTextContainer">
         <img className="logoPageAssureur" src={allianz} />

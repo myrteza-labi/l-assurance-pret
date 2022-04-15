@@ -5,7 +5,7 @@ import generali from '../images/logos-assurances/generali-square.jpg';
 
 function Generali() {
   return (
-    <div className="CompagniesAssurances">
+    <div className="Societe">
       <HeaderImage src={header} />
       <div className="CompagniesAssurancesTextContainer">
         <img className="logoPageAssureur" src={generali} />

@@ -8,11 +8,11 @@ import logo from './images/logo.png';
 import App from './App';
 import Comparatif from './comparatif/Comparatif';
 import Pret from './pret/Pret';
-import PretConso from './pret/PretConso';
-import PretRachat from './pret/PretRachat';
+import Conso from './pret/Conso';
+import Rachat from './pret/Rachat';
 import Courtier from './courtier/Courtier';
 import Devis from './devis/Devis';
-import CompagniesAssurances from './compagnies-assurances/CompagniesAssurances';
+import Societe from './compagnies-assurances/Societe';
 import AfiEurope from './compagnies-assurances/AfiEurope';
 import Allianz from './compagnies-assurances/Allianz';
 import Alptis from './compagnies-assurances/Alptis';
@@ -69,10 +69,6 @@ const Navbar = (props) => {
       boxClassSubMenu2.push('');
   }
 
-  function devis(){
-    toggleClass(); 
-    window.reload(); 
-  }
 
  
 
@@ -89,47 +85,47 @@ const Navbar = (props) => {
               </>}
               <ul className={boxClass.join(' ')}>
                 <li className="menu-item">
-                  <Link  activeClassName='is-active' onClick={toggleClass} to={`/`} element={<App />}> Accueil </Link>
+                  <Link  activeclassname='is-active' onClick={toggleClass} to={`/`} element={<App />}> Accueil </Link>
                 </li>
                 <li className="menu-item">
-                  <Link  activeClassName='is-active' onClick={toggleClass} to="/comparatif/Comparatif" element={<Comparatif />}> Comparatif </Link>
+                  <Link  activeclassname='is-active' onClick={toggleClass} to="/comparatif/Comparatif" element={<Comparatif />}> Comparatif </Link>
                 </li>
                 <li className="menu-item">
-                  <Link  activeClassName='is-active' onClick={toggleClass} to="/courtier/Courtier" element={<Courtier />}> Courtier </Link>
+                  <Link  activeclassname='is-active' onClick={toggleClass} to="/courtier/Courtier" element={<Courtier />}> Courtier </Link>
                 </li>
                 <li className="menu-item">
-                  <Link activeClassName='is-active' onClick={devis} to="/devis/Devis" element={<Devis />}> Devis </Link>
+                  <Link activeclassname='is-active' onClick={toggleClass} to="/devis/Devis" element={<Devis />}> Devis </Link>
                 </li>
                 <li onClick={toggleSubmenu1} className="menu-item sub__menus__arrows" >
                   <Link to="/pret/Pret" element={<Pret />}>Pret</Link>
                   <ul className={boxClassSubMenu1.join(' ')} >
-                    <li> <Link onClick={toggleClass} activeClassName='is-active' to={`/pret/PretConso`} element={<PretConso />}> Prêt conso</Link> </li>
-                    <li> <Link onClick={toggleClass} activeClassName='is-active' to={`/pret/PretRachat`} element={<PretRachat />}> Prêt Rachat</Link> </li>
+                    <li> <Link onClick={toggleClass} activeclassname='is-active' to={`/pret/Conso`} element={<Conso />}> Prêt Conso</Link> </li>
+                    <li> <Link onClick={toggleClass} activeclassname='is-active' to={`/pret/Rachat`} element={<Rachat />}> Prêt Rachat</Link> </li>
                   </ul>
                 </li>
                 <li onClick={toggleSubmenu2} className="menu-item sub__menus__arrows" >
-                  <Link to="/compagnies-assurances/CompagniesAssurances" element={<CompagniesAssurances />}>Société</Link>
+                  <Link to="/compagnies-assurances/Societe" element={<Societe />}>Société</Link>
                   <ul className={boxClassSubMenu2.join(' ')} >
                     <li>
-                      <Link onClick={toggleClass} activeClassName='is-active' to="/compagnies-assurances/AfiEurope" element={<AfiEurope />}>AfiEurope</Link>
+                      <Link onClick={toggleClass} activeclassname='is-active' to="/compagnies-assurances/AfiEurope" element={<AfiEurope />}>AfiEurope</Link>
                     </li>
                     <li>
-                      <Link onClick={toggleClass} activeClassName='is-active' to="/compagnies-assurances/Allianz" element={<Allianz />}>Allianz</Link>
+                      <Link onClick={toggleClass} activeclassname='is-active' to="/compagnies-assurances/Allianz" element={<Allianz />}>Allianz</Link>
                     </li>
                     <li>
-                      <Link onClick={toggleClass} activeClassName='is-active' to="/compagnies-assurances/Alptis" element={<Alptis />}>Alptis</Link>
+                      <Link onClick={toggleClass} activeclassname='is-active' to="/compagnies-assurances/Alptis" element={<Alptis />}>Alptis</Link>
                     </li>
                     <li>
-                      <Link onClick={toggleClass} activeClassName='is-active' to="/compagnies-assurances/April" element={<April />}>April</Link>
+                      <Link onClick={toggleClass} activeclassname='is-active' to="/compagnies-assurances/April" element={<April />}>April</Link>
                     </li><li>
-                      <Link onClick={toggleClass} activeClassName='is-active' to="/compagnies-assurances/Generali" element={<Generali />}>Generali</Link>
+                      <Link onClick={toggleClass} activeclassname='is-active' to="/compagnies-assurances/Generali" element={<Generali />}>Generali</Link>
                     </li><li>
-                      <Link onClick={toggleClass} activeClassName='is-active' to="/compagnies-assurances/SwissLife" element={<SwissLife />}>SwissLife</Link>
+                      <Link onClick={toggleClass} activeclassname='is-active' to="/compagnies-assurances/SwissLife" element={<SwissLife />}>SwissLife</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item">
-                  <Link activeClassName='is-active' onClick={toggleClass} to="/tarif/Tarif" element={<Tarif />}>Tarif</Link>
+                  <Link activeclassname='is-active' onClick={toggleClass} to="/tarif/Tarif" element={<Tarif />}>Tarif</Link>
                 </li>
 
                     </ul>
@@ -148,22 +144,22 @@ export default Navbar;
 
 <li id="li1"  onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Shop  </Link>
                         <ul className={boxClassSubMenu1.join(' ')} > 
-                            <li id="li3"> <Link onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Online Shop </Link> </li>
-                            <li id="li4"><Link onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Offline Shop </Link> </li>
+                            <li id="li3"> <Link onClick={toggleClass} activeclassname='is-active'  to={`/Online`}> Online Shop </Link> </li>
+                            <li id="li4"><Link onClick={toggleClass} activeclassname='is-active' to={`/Offline`}> Offline Shop </Link> </li>
                         </ul>
                     </li>
                     <li  className="menu-item" >
-                        <Link exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </Link> 
+                        <Link exact activeclassname='is-active' onClick={toggleClass} to={`/`}> Home </Link> 
                     </li>
-                    <li className="menu-item " ><Link onClick={toggleClass} activeClassName='is-active' to={`/About`}> About </Link> </li>
+                    <li className="menu-item " ><Link onClick={toggleClass} activeclassname='is-active' to={`/About`}> About </Link> </li>
                     <li id="li2" onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Shop  </Link>
                         <ul className={boxClassSubMenu2.join(' ')} > 
-                            <li id="li5"> <Link onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Online Shop </Link> </li>
-                            <li id="li6"><Link onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Offline Shop </Link> </li>
+                            <li id="li5"> <Link onClick={toggleClass} activeclassname='is-active'  to={`/Online`}> Online Shop </Link> </li>
+                            <li id="li6"><Link onClick={toggleClass} activeclassname='is-active' to={`/Offline`}> Offline Shop </Link> </li>
                         </ul>
                     </li>
 
-                    <li className="menu-item " ><Link onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </Link> </li>
+                    <li className="menu-item " ><Link onClick={toggleClass} activeclassname='is-active' to={`/Contact`}> Contact </Link> </li>
 
 
 

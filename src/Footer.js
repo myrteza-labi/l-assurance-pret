@@ -8,7 +8,7 @@ import Comparatif from './comparatif/Comparatif';
 import Courtier from './courtier/Courtier';
 import Devis from './devis/Devis';
 import Pret from './pret/Pret';
-import CompagniesAssurances from './compagnies-assurances/CompagniesAssurances';
+import Societe from './compagnies-assurances/Societe';
 import Tarif from './tarif/Tarif';
 import Contact from './contact/Contact';
 import App from './App';
@@ -28,7 +28,7 @@ function Footer() {
                 <div className="linkBlock" >
                     <HashLink className="footerLink" to="/devis/Devis#Devis" element={<Devis />} onClick={() => window.reload()}>Devis</HashLink>
                     <HashLink className="footerLink" to="/pret/Pret#Pret" element={<Pret />}>Pret</HashLink>
-                    <HashLink className="footerLink" to="/compagnies-assurances/CompagniesAssurances#CompagniesAssurances" element={<CompagniesAssurances />}>Société</HashLink>
+                    <HashLink className="footerLink" to="/compagnies-assurances/Societe#Societe" element={<Societe />}>Société</HashLink>
                 </div>
                 <div className="linkBlock" >
                     <HashLink className="footerLink" to="/tarif/Tarif#Tarif" element={<Tarif />}>Tarif</HashLink>
