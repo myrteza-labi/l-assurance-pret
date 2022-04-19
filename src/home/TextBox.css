@@ -29,8 +29,12 @@
         width: 100%; 
     }
     .TextBox{
-        margin: 50px 0 0 0; 
+        margin: 0px 0 0 0; 
+        max-width: 300px; 
+        margin-left: 0px;
+
     }
+
 }
 
 @media screen and (max-width: 500px){
@@ -39,5 +43,10 @@
     }
     .textBoxParagraphe {
         padding: 0; 
+    }
+    .TextBox{
+        max-width: 300px; 
+        margin-left: 0px;
+
     }
 }

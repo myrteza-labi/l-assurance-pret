@@ -63,7 +63,7 @@
         padding: 50px 0 0 0;  
     }
     .introBoxBtnCtn {
-        margin: 0; 
+        margin-bottom: 50px;
     }
     .introBoxTitle {
         max-width: 100%;
@@ -77,6 +77,9 @@
     .underline{
         margin-left: 50px; 
     }
+    .IntroBox {
+        padding-top: 50px;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -85,5 +88,14 @@
     }
     #introImg {
         display: none; 
+    }
+    .IntroBox {
+        padding-top: 50px;
+    }
+    .introBoxParagraphe {
+        max-width: 90%;
+    }
+    .introBoxBtnCtn {
+        margin-bottom: 50px;
     }
 }

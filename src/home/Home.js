@@ -110,35 +110,3 @@ function Home() {
 
 export default Home;
 
-
-/*
-
-
-
-
-<ItemsSection className="ItemsSection"
-      title={"Pourquoi utiliser les services d'un courtier L'Assurance Prêt"}
-      itemTitle1={"Indépendance"}
-      src1={independanceLogo}
-      itemTitle2={"Rapidité"}
-      src2={rapideLogo}
-      itemTitle3={"Conseil"}
-      src3={conseilLogo}
-      itemTitle4={"Comparaison"}
-      src4={comparaisonLogo}
-      />
-      <ItemsSection className="ItemsSection two"
-      title={"Déléguer votre assurance de prêt: Comment ça fonctionne ?"}
-      itemTitle1={"Rensigner votre profile"}
-      src1={profilLogo}
-      itemTitle2={"Définissez votre projet"}
-      src2={projetLogo}
-      itemTitle3={"Comparez les offres"}
-      src3={comparaison2Logo}
-      itemTitle4={"Choisissez votre contrat"}
-      src4={handchekLogo}
-      />
-
-
-
-*/

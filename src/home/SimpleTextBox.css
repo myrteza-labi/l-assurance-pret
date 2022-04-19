@@ -43,12 +43,16 @@
 @media screen and (min-width: 500px) and (max-width: 900px){
     .SimpleTextBox {
         color: #333;
-        max-width: 100%; 
-        margin: 0;
+        max-width: 90%; 
         box-shadow: 0px 0px 10px #999;
-        padding: 60px;
+        margin: 0;
+        padding: 0 20px; 
         border-radius: 10px;
         background-color: #fff;
+    }
+    .SimpleTextBox3 {
+        max-width: 90%;
+        padding: 0 20px ; 
     }
 }
 
@@ -56,10 +60,9 @@
     .SimpleTextBox {
         max-width: 100%;
         margin: 0;
-        box-shadow: 0px 0px 10px #999;
-        padding: 40px;
-        border-radius: 10px;
-        background-color: #fff;
+        padding: 0 20px; 
+        min-width: 0px;
+
     }
     .SimpleTextBox p.SimpleTextParagraphe{
         padding: 0 ; 
@@ -67,10 +70,10 @@
 
     .SimpleTextBox3 {
         color: #333;
-        max-width: 700px;
-        min-width:100%;
-        padding: 0 60px;
-        border-radius: 10px;
-        background-color: #fff;
+        max-width: 90%;
+        padding: 0 20px ; 
+        min-width: 0px;
+
     }
+    
 }

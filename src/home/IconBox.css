@@ -27,3 +27,36 @@
     width: 100%;
     height: auto;
 }
+
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+    .IconBox{
+        width: 120px; 
+        margin: 0; 
+        padding: 0; 
+    }
+    
+    .iconBoxCtn {
+        justify-content: space-around; 
+        padding: 20px; 
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .IconBox{
+        width: 130px; 
+        margin: 0; 
+        padding: 0;
+        margin-bottom: 20px;  
+        flex-direction: row; 
+
+    }
+    .iconBoxCtn {
+        justify-content: space-around; 
+        padding: 20px; 
+        margin-bottom: 20px;  
+        flex-direction: row; 
+    }
+}
+

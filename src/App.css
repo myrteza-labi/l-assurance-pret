@@ -124,11 +124,40 @@
     .CompagniesAssurancesTextContainer {
         padding: 0px 50px; 
     }
+    .firstSection {
+        padding-bottom: 50px;
+    }
+    .MainImageTextBoxCtn {
+        flex-direction: column;
+    }
+    .iconBoxCtn {
+        padding: 0;
+    }
+    .separateur {
+        display: none; 
+    }
+    .titleAndIconboxTextCtn {
+        padding-bottom: 0px;
+    }
 
 }
 
-@media screen and (max-width: 900px) {
-    
+@media screen and (max-width: 500px) {
+    .firstSection {
+        padding-bottom: 50px;
+    }
+    .MainImageTextBoxCtn {
+        flex-direction: column;
+    }
+    .iconBoxCtn {
+        padding: 0;
+    }
+    .separateur {
+        display: none; 
+    }
+    .titleAndIconboxTextCtn {
+        padding-bottom: 0px;
+    }
 }
 
 

@@ -43,6 +43,7 @@
 @media screen and (min-width: 500px) and (max-width: 900px){
     .CompagniesAssurancesTextContainer{
         padding: 0px; 
+        max-width: 90%; 
     }
     .Courtier .SimpleTextParagraphe{
         padding: 0px; 
@@ -55,5 +56,11 @@
     }
     #homeTextbox p{
         padding: 0; 
+    }
+}
+
+@media screen and (max-width: 500px){
+    .CompagniesAssurancesTextContainer{
+        max-width: 90%; 
     }
 }
