@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact.css';
-import HeaderImage from '../HeaderImage';
-import header from '../images/pexels-andrea-piacquadio-3760067.jpg';
+import HeaderImage from './HeaderImage';
+import header from './images/accord-credit-l-assurance-pret.jpg';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import ReCAPTCHA from "react-google-recaptcha";

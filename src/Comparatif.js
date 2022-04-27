@@ -1,7 +1,7 @@
 import React from 'react'
 import './Comparatif.css';
-import HeaderImage from '../HeaderImage';
-import header from '../images/pexels-anna-shvets-5257276.jpg';
+import HeaderImage from './HeaderImage';
+import header from './images/comparatif-l-assurance-pret.jpg';
 
 
 

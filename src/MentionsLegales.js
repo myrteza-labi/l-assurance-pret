@@ -1,7 +1,7 @@
 import React from 'react'
 import './MentionsLegales.css';
-import HeaderImage from '../HeaderImage';
-import header from '../images/pexels-andrea-piacquadio-3760067.jpg';
+import HeaderImage from './HeaderImage';
+import header from './images/accord-credit-l-assurance-pret.jpg';
 
 function MentionsLegales() {
   return (

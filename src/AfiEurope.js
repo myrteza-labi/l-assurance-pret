@@ -1,8 +1,8 @@
 import React from 'react'
-import header from '../images/pexels-thisisengineering-3862603.jpg';
-import HeaderImage from '../HeaderImage';
-import afieurope from '../images/logos-assurances/afieurope-square.jpg';
-import afieuropeBanner from '../images/afieurope.jpg';
+import header from './images/l-assurance-pret-pas-cher-devis-simulation.jpg';
+import HeaderImage from './HeaderImage';
+import afieurope from './images/logos-assurances/afieurope-square.jpg';
+import afieuropeBanner from './images/afieurope-l-assurance-pret.jpg';
 
 
 function AfiEurope() {

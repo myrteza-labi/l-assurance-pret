@@ -1,7 +1,7 @@
 import React from 'react'
-import header from '../images/pexels-thisisengineering-3862603.jpg';
-import HeaderImage from '../HeaderImage';
-import alptis from '../images/logos-assurances/alptis-square.jpg';
+import header from './images/l-assurance-pret-pas-cher-devis-simulation.jpg';
+import HeaderImage from './HeaderImage';
+import alptis from './images/logos-assurances/alptis-square.jpg';
 
 function Alptis() {
   return (

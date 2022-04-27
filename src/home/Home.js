@@ -10,7 +10,6 @@ import allianz from '../images/logos-assurances/allianz.jpg';
 import alptis from '../images/logos-assurances/alptis.jpg';
 import aprep from '../images/logos-assurances/aprep.jpg';
 import april from '../images/logos-assurances/april.jpg';
-import covea from '../images/logos-assurances/covea.jpg';
 import generali from '../images/logos-assurances/generali.jpg';
 import premium from '../images/logos-assurances/premium.jpg';
 import spheriavie from '../images/logos-assurances/spheriavie.jpg';
@@ -19,8 +18,8 @@ import televie from '../images/logos-assurances/televie.jpg';
 import afieurope from '../images/logos-assurances/afieurope.jpg';
 import ugip from '../images/logos-assurances/ugip.jpg';
 import unim from '../images/logos-assurances/unim.jpg';
-import houseimage from '../images/house.jpg'
-import compareImg from '../images/compare.jpg'
+import houseimage from '../images/simulation-pret-assurance.jpg'
+import compareImg from '../images/comparaison-assurance-credit.jpg'
 import ItemsSection from './ItemsSection';
 import independanceLogo from '../images/icon-step/independance.png'
 import comparaisonLogo from '../images/icon-step/comparaison.png'
@@ -92,7 +91,6 @@ function Home() {
           <IconBox src={alptis} />
           <IconBox src={aprep} />
           <IconBox src={april} />
-          <IconBox src={covea} />
           <IconBox src={generali} />
           <IconBox src={premium} />
           <IconBox src={spheriavie} />

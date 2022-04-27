@@ -1,7 +1,7 @@
 import React from 'react'
 import './Devis.css';
-import HeaderImage from '../HeaderImage';
-import header from '../images/pexels-polina-tankilevitch-6927354.jpg';
+import HeaderImage from './HeaderImage';
+import header from './images/devis-assurance-pret.jpg';
 
 function Devis() {
     // devis AS du Grand Lyon: ne pas modifier ou 

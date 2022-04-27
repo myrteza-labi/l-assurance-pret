@@ -1,7 +1,7 @@
 import React from 'react'
-import header from '../images/pexels-thisisengineering-3862603.jpg';
-import HeaderImage from '../HeaderImage';
-import generali from '../images/logos-assurances/generali-square.jpg';
+import header from './images/l-assurance-pret-pas-cher-devis-simulation.jpg';
+import HeaderImage from './HeaderImage';
+import generali from './images/logos-assurances/generali-square.jpg';
 
 function Generali() {
   return (

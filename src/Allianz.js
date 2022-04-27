@@ -1,8 +1,8 @@
 import React from 'react'
-import header from '../images/pexels-thisisengineering-3862603.jpg';
-import HeaderImage from '../HeaderImage';
-import allianz from '../images/logos-assurances/allianz-square.jpg';
-import allianzBanner from '../images/allianz-banner.jpg';
+import header from './images/l-assurance-pret-pas-cher-devis-simulation.jpg';
+import HeaderImage from './HeaderImage';
+import allianz from './images/logos-assurances/allianz-square.jpg';
+import allianzBanner from './images/allianz-banner-l-assurance-pret.jpg';
 
 
 function Allianz() {

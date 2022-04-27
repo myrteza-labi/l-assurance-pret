@@ -1,6 +1,6 @@
 import './Tarif.css';
-import HeaderImage from '../HeaderImage';
-import header from '../images/pexels-oleg-magni-2058137.jpg';
+import HeaderImage from './HeaderImage';
+import header from './images/meilleur-tarif-assurance-pret.jpg';
 
 function Tarif() {
     return (

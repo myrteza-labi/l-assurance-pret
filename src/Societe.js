@@ -7,15 +7,15 @@ import Alptis from './Alptis';
 import April from './April';
 import Generali from './Generali';
 import SwissLife from './SwissLife';
-import IconBox from '../home/IconBox';
-import allianz from '../images/logos-assurances/allianz.jpg';
-import alptis from '../images/logos-assurances/alptis.jpg';
-import april from '../images/logos-assurances/april.jpg';
-import generali from '../images/logos-assurances/generali.jpg';
-import swisslife from '../images/logos-assurances/swisslife.jpg';
-import afieurope from '../images/logos-assurances/afieurope.jpg';
-import header from '../images/pexels-thisisengineering-3862603.jpg';
-import HeaderImage from '../HeaderImage';
+import IconBox from './home/IconBox';
+import allianz from './images/logos-assurances/allianz.jpg';
+import alptis from './images/logos-assurances/alptis.jpg';
+import april from './images/logos-assurances/april.jpg';
+import generali from './images/logos-assurances/generali.jpg';
+import swisslife from './images/logos-assurances/swisslife.jpg';
+import afieurope from './images/logos-assurances/afieurope.jpg';
+import header from './images/l-assurance-pret-pas-cher-devis-simulation.jpg';
+import HeaderImage from './HeaderImage';
 
 function Societe() {
     return (

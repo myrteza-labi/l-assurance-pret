@@ -1,9 +1,9 @@
 
 import React from 'react'
 import './Courtier.css';
-import courtier from '../images/pexels-moose-photos-1586996.jpg';
-import SimpleTextBox from '../home/SimpleTextBox';
-import MainImage from '../MainImage';
+import courtier from './images/courtier-l-assurance-pret.jpg';
+import SimpleTextBox from './home/SimpleTextBox';
+import MainImage from './MainImage';
 
 function Courtier() {
   return (
